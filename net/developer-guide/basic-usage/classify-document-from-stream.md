@@ -14,7 +14,7 @@ Classifying of the document from stream could be performed with the next step
 *   Handle possible ApiException 
 
 ```csharp
-Classify document from stream with Documents taxonomy and return 2 best resultstry
+// Classify document from stream with Documents taxonomy and return 2 best resultstry
 {
     var response = classifier.Classify(stream, 2, Taxonomy.Documents);
     Console.WriteLine(response.BestClassName, response.BestClassProbability);
