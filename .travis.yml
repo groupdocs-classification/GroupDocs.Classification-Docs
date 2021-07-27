@@ -8,7 +8,6 @@ branches:
 env:
   global:
     - PRODUCT=classification
-    - PLATFORM=net
     - ROOT_DIR=common
     - SRC_DIR=common/public
     - DEST_DIR=/var/www/docs.groupdocs.com/html
