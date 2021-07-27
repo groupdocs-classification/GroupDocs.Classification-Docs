@@ -30,7 +30,6 @@ install:
 
 script:
 - mkdir -p $ROOT_DIR/content/$PRODUCT
-- cp -r java $ROOT_DIR/content/$PRODUCT
 - cp -r net $ROOT_DIR/content/$PRODUCT
 - cp _index.md $ROOT_DIR/content/$PRODUCT
 - hugo --source $ROOT_DIR --minify --config config.toml,ignore-total-config.toml
