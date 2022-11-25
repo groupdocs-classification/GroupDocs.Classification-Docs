@@ -12,7 +12,7 @@ hideChildren: False
 
 Classifying of the document could be performed with the next steps
 
-*   Call **[Classify](https://apireference.groupdocs.com/net/classification/groupdocs.classification.classifier/classify/methods/2)** method for "document.pdf" file in the current (".") directory with IAB-2 taxonomy and return 2 best results.
+*   Call **[Classify](https://reference.groupdocs.com/net/classification/groupdocs.classification.classifier/classify/methods/2)** method for "document.pdf" file in the current (".") directory with IAB-2 taxonomy and return 2 best results.
 *   Handle possible ApiException
 
 ```csharp
@@ -29,7 +29,7 @@ catch (ApiException e)
 
 ### Precisely classify document by path with Documents taxonomy and return 4 best results
 
-*   Call **[Classify](https://apireference.groupdocs.com/net/classification/groupdocs.classification.classifier/classify/methods/2)** method for "document.doc" file in the current (".") directory with Documents taxonomy, set precision/recall balance to "Precision" and return 4 best results.
+*   Call **[Classify](https://reference.groupdocs.com/net/classification/groupdocs.classification.classifier/classify/methods/2)** method for "document.doc" file in the current (".") directory with Documents taxonomy, set precision/recall balance to "Precision" and return 4 best results.
 *   Handle possible ApiException
     
 
@@ -49,7 +49,7 @@ catch (ApiException e)
 
 Classifying of the password-protected document could be performed with the next step
 
-*   Call **[Classify](https://apireference.groupdocs.com/net/classification/groupdocs.classification.classifier/classify/methods/2)** method for "document.doc" file in the current (".") directory with password parameter.
+*   Call **[Classify](https://reference.groupdocs.com/net/classification/groupdocs.classification.classifier/classify/methods/2)** method for "document.doc" file in the current (".") directory with password parameter.
 *   Handle possible ApiException
 
 ```csharp

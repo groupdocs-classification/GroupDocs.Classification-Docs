@@ -24,6 +24,6 @@ Following are the links to some useful resources you may need to accomplish your
 *   [GroupDocs.Classification for .NET Release Notes]({{< ref "classification/net/release-notes/_index.md" >}})
 *   [GroupDocs.Classification for .NET Product Page](https://products.groupdocs.com/classification/net)
 *   [Install GroupDocs.Classification for .NET NuGet Package](https://www.nuget.org/packages/GroupDocs.Classification/)
-*   [GroupDocs.Classification for .NET API Reference Guide](https://apireference.groupdocs.com/net/classification)
+*   [GroupDocs.Classification for .NET API Reference Guide](https://reference.groupdocs.com/net/classification)
 *   [GroupDocs.Classification for .NET Free Support Forum](https://forum.groupdocs.com/c/classification)
 *   [GroupDocs.Classification for .NET Paid Support Helpdesk](https://helpdesk.groupdocs.com/)

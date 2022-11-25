@@ -10,7 +10,7 @@ hideChildren: False
 ---
 Classifying of the document from stream could be performed with the next step
 
-*   Call [**Classify** ](https://apireference.groupdocs.com/net/classification/groupdocs.classification/classifier/methods/classify)method for "stream" stream with Documents taxonomy and return 2 best results.
+*   Call [**Classify** ](https://reference.groupdocs.com/net/classification/groupdocs.classification/classifier/methods/classify)method for "stream" stream with Documents taxonomy and return 2 best results.
 *   Handle possible ApiException 
 
 ```csharp
