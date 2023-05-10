@@ -4,11 +4,11 @@ url: classification/net
 title: GroupDocs.Classification for .NET
 weight: 1
 description: ""
-keywords: 
+keywords:
 productName: GroupDocs.Classification for .NET
 hideChildren: True
 ---
-#  Home 
+#  Home
 
 {{< alert style="info" >}}
 ![](classification/net/images/home.png) **Welcome to the GroupDocs.Classification for .NET**   
@@ -21,7 +21,7 @@ Following are the links to some useful resources you may need to accomplish your
 *   [GroupDocs.Classification for .NET Online Documentation]({{< ref "classification/net/_index.md" >}})
 *   [GroupDocs.Classification for .NET Features]({{< ref "classification/net/getting-started/features-overview.md" >}})
 *   [GroupDocs.Classification for .NET Limitations]({{< ref "classification/net/getting-started/evaluation-limitations-and-licensing.md" >}})
-*   [GroupDocs.Classification for .NET Release Notes]({{< ref "classification/net/release-notes/_index.md" >}})
+*   [GroupDocs.Classification for .NET Release Notes](https://releases.groupdocs.com/classification/net/release-notes/)
 *   [GroupDocs.Classification for .NET Product Page](https://products.groupdocs.com/classification/net)
 *   [Install GroupDocs.Classification for .NET NuGet Package](https://www.nuget.org/packages/GroupDocs.Classification/)
 *   [GroupDocs.Classification for .NET API Reference Guide](https://reference.groupdocs.com/net/classification)
