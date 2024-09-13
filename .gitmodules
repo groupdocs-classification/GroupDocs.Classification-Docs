@@ -1,3 +1,4 @@
 [submodule "common"]
 	path = common
 	url = https://github.com/groupdocs/docs.groupdocs.com.git
+	branch = master
