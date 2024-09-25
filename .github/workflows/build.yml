@@ -48,12 +48,22 @@ jobs:
           user: ${{ secrets.DOCS_SSH_USER }}
           key: ${{ secrets.DOCS_SSH_KEY }}
 
+#      - name: Deploy documentation
+#       uses: burnett01/rsync-deployments@7.0.1
+#        with:
+#          switches: -vzr --delete
+#          path: common/public/${{ env.PRODUCT }}
+#          remote_path: ${{ secrets.DOCS_SSH_DIR }}
+#          remote_host: ${{ secrets.DOCS_SSH_HOST }}
+#          remote_user: ${{ secrets.DOCS_SSH_USER }}
+#          remote_key: ${{ secrets.DOCS_SSH_KEY }}
+
       - name: Deploy documentation
-        uses: burnett01/rsync-deployments@7.0.1
+        uses: nogsantos/scp-deploy@master
         with:
-          switches: -vzr --delete
-          path: common/public/${{ env.PRODUCT }}
-          remote_path: ${{ secrets.DOCS_SSH_DIR }}
-          remote_host: ${{ secrets.DOCS_SSH_HOST }}
-          remote_user: ${{ secrets.DOCS_SSH_USER }}
-          remote_key: ${{ secrets.DOCS_SSH_KEY }}
+          src: common/public/${{ env.PRODUCT }}
+          host: ${{ secrets.DOCS_SSH_HOST }}
+          remote: ${{ secrets.DOCS_SSH_DIR }}
+          user: ${{ secrets.DOCS_SSH_USER }}
+          key: ${{ secrets.DOCS_SSH_KEY }}     
+
