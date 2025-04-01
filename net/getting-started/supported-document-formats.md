@@ -8,9 +8,6 @@ keywords:
 productName: GroupDocs.Classification for .NET
 hideChildren: False
 ---
-*   [Supported File Formats]({{< ref "classification/net/getting-started/supported-document-formats.md" >}})
-
-## Supported File Formats
 
 The following table indicates the file formats that GroupDocs.Classification for .NET can process.
 
@@ -27,3 +24,12 @@ The following table indicates the file formats that GroupDocs.Classification fo
 | [OTT](https://wiki.fileformat.com/word-processing/ott/) | Open Document Text Template |
 | [RTF](https://wiki.fileformat.com/word-processing/rtf/) | Rich Text Document |
 | [TXT](https://wiki.fileformat.com/word-processing/txt/) | Plain Text Document |
+
+
+{{< alert style="tip" >}}
+
+**Can’t find your file format?**
+
+We’re here to help! Please post a request on our [Free Support Forum](https://forum.groupdocs.com/c/classification/34), and our team will assist you.
+
+{{< /alert >}}
