@@ -44,7 +44,7 @@ Build custom applications to perform documents and text categorization operation
         <div class="gdoc-product-col__descr">Articles and guidelines for basic and advanced development</div>
         <ul class="gdoc-product-col__links">
         <li> <a href='/classification/net/basic-usage/'>Basic Usage</a></li>
-        <li> <a href='/classification/net/advanced-usage/'>Advanced Usage</a></li>
+        <li> <a href='/classification/net/developer-guide/'>Advanced Usage</a></li>
         </ul>
         </div>
     </div>
